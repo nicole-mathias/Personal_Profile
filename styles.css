@@ -76,7 +76,11 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     position: fixed;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width : 100%;
+>>>>>>> 4e6144d83342244af8e44def573a1999400d2ee3
 }
 
 .navigation .nav-brand {
@@ -190,6 +194,7 @@ hr {
 
 
 .align-left {
+<<<<<<< HEAD
     float: left;
 }
 
@@ -213,3 +218,7 @@ hr {
     flex-wrap: wrap;
 
 }
+=======
+	float: left;
+}
+>>>>>>> 4e6144d83342244af8e44def573a1999400d2ee3
