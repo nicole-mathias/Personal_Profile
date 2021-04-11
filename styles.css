@@ -3,7 +3,7 @@
 :root {
     --primary-color: #43e4a9;
 
-    --off-white : #F3F4F6; 
+    --off-white: #F3F4F6;
 
     --dark-gray: #6B7280;
 }
@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    margin : 0px;
+    margin: 0px;
 }
 
 hr {
@@ -37,8 +37,8 @@ hr {
     /* box-sizing : border-box; */
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top : 1rem;
-    margin-bottom : 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link-primary {
@@ -75,6 +75,8 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    position: fixed;
+    width: 100%;
 }
 
 .navigation .nav-brand {
@@ -87,6 +89,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    padding-right: 3rem;
 }
 
 .navigation .link {
@@ -108,13 +111,14 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    margin-top: 10rem;
 }
 
 
 .hero .hero-heading {
-    text-align : center;
+    text-align: center;
     color: var(--dark-gray);
-    padding-top: 1rem;
+    padding-top: 10rem;
 }
 
 
@@ -129,61 +133,83 @@ hr {
 }
 
 .ow {
-    background-color : var(--off-white);
+    background-color: var(--off-white);
 
 }
 
 
 /* footers */
 
-.footer{
-    background-color : var(--primary-color);
-    padding : 2rem 0rem;
-    text-align : center;
-    color : white;
-    border-top-right-radius: 1rem;;
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    ;
 
 }
 
-.footer .link{
-    color : white;
+.footer .link {
+    color: white;
 }
 
 
-.footer .footer-header{
-    font-weight : bold;
-    font-size : large;
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 /* this part is taken after inspecting elements on the web, to centre the links properly */
-.footer ul{
-    padding-inline-start : 0px;
+.footer ul {
+    padding-inline-start: 0px;
 }
 
 
 
 
 /* text decoration for skills */
-.text-decor{
+.text-decor {
     text-decoration: underline;
 }
 
 
-.text-cover{
+.text-cover {
     background-color: #D1FAE5;
-    padding : 1rem;
+    padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
+
 }
 
-.text-cover-grey{
+.text-cover-grey {
     background-color: #E5E7EB;
-    padding : 1rem;
+    padding: 1rem;
 
 }
 
 
 .align-left {
-	float: left;
+    float: left;
+}
+
+
+/* project buttons */
+.display-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.display {
+    margin-right: 1rem;
+}
+
+
+/* nav buttons */
+.nav-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
 }
